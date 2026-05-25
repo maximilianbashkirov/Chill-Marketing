@@ -1,0 +1,7 @@
+Database tables created successfully
+Error initializing collection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+Vector database initialized successfully
+Chill Marketing AI Bot v1.0.0 started successfully!
+INFO:     127.0.0.1:48854 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4400 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21514 - "POST /api/v1/market-research/conduct HTTP/1.1" 200 OK
