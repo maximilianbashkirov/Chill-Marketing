@@ -169,18 +169,6 @@ hot_score = max(rating, 0) + responses_count * 2
 
 ## Деплой
 
-### Рекомендация: Amvera (бесплатный тариф)
-1. Залить проект на GitHub
-2. Создать проект на amvera.io → связать репозиторий
-3. Указать порт 8000
-4. Добавить `.env` с `GIGACHAT_CREDENTIALS`
-5. Amvera сам соберёт Docker-образ и запустит
-
-### Vercel
-Только фронтенд, бекенд — отдельно.
-
-### Docker (любой хостинг)
-
 ```bash
 docker-compose up --build -d
 ```
